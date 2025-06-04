@@ -7303,7 +7303,7 @@
 			)
 		)
 	)
-	(footprint "Local:ADA-TPS61040"
+	(footprint "am9511-6502-footprints:ADA-TPS61040"
 		(layer "F.Cu")
 		(uuid "a564f704-ef49-4534-b6ff-792a3624ecad")
 		(at 154.093763 107 180)
@@ -7321,7 +7321,7 @@
 			)
 		)
 		(property "Value" "ADA-TPS61040"
-			(at -6.737426 -0.067603 90)
+			(at -6.737426 -0.067603 270)
 			(layer "F.Fab")
 			(uuid "6a1f9a6f-91fc-480e-b0a7-f5cafc486330")
 			(effects
@@ -7331,7 +7331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/5644#technical-details"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7344,7 +7344,7 @@
 				)
 			)
 		)
-		(property "Description" "Boost Converter"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7369,7 +7369,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "949d78fd-f269-49fb-a87e-c8b0e9775c19")
+			(uuid "8caa3690-eaeb-4b8d-a2f3-c911fecff331")
 		)
 		(fp_line
 			(start -11.520168 5.157423)
@@ -7379,7 +7379,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "290f8272-b186-4dce-af84-9690bbcfea6e")
+			(uuid "d574ea65-e57d-426d-896d-5800eb0590a7")
 		)
 		(fp_line
 			(start -11.520168 -2.522577)
@@ -7389,7 +7389,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8981e868-39f5-4ca1-a7ed-9f3e9d4edabb")
+			(uuid "ec234d54-15b6-44f2-861e-868aa91585af")
 		)
 		(fp_line
 			(start -11.520168 -2.522577)
@@ -7399,7 +7399,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b20dee9f-86dc-4ed6-aae7-66431a456738")
+			(uuid "fa4601b1-dbc7-433e-a09b-7e57b72dc44b")
 		)
 		(fp_line
 			(start -11.520168 -3.792577)
@@ -7409,7 +7409,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "da03d181-818b-4a63-a775-26d6c49ffa17")
+			(uuid "3b6ecdd8-a684-4cce-a1fc-f821cf5de527")
 		)
 		(fp_line
 			(start -11.520168 -5.122577)
@@ -7419,7 +7419,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "940e135a-0b81-4af0-a3fd-392d20ef21e0")
+			(uuid "4841cd0f-5c00-4de2-8197-5af7b4dc2cc4")
 		)
 		(fp_rect
 			(start -12.730168 -6.332577)
@@ -7430,7 +7430,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "6d2b0b68-981a-40a6-a112-e28f14130b23")
+			(uuid "ca8e0027-8305-404a-831d-1c9928dcc7e4")
 		)
 		(fp_line
 			(start -8.390168 5.607423)
@@ -7440,7 +7440,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fb3f51b2-1f07-4e14-ab13-673148a27240")
+			(uuid "51f873a5-fd87-43ec-9eea-825ad4b6a4b6")
 		)
 		(fp_line
 			(start -8.390168 -5.592577)
@@ -7450,7 +7450,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b4397b4e-1fec-4e9f-9229-c8b0e25dc51c")
+			(uuid "2f0b3ab5-2c63-45fe-a159-6f0755753f10")
 		)
 		(fp_line
 			(start -11.990168 5.607423)
@@ -7460,7 +7460,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "189bb0bf-51d3-4ee9-a6a6-9589864e7e1a")
+			(uuid "41195d66-f60e-4a03-b4af-2cc79b43aa10")
 		)
 		(fp_line
 			(start -11.990168 -5.592577)
@@ -7470,7 +7470,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3297ce38-96e0-4ecd-8efe-d1837443085f")
+			(uuid "60bb492c-fa8c-4037-a802-184980990638")
 		)
 		(fp_line
 			(start -8.920168 5.097423)
@@ -7480,7 +7480,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9d79d590-0509-4425-8470-8bacd8546847")
+			(uuid "052d15fd-b9be-4de9-a044-37d66b06a2c5")
 		)
 		(fp_line
 			(start -8.920168 -5.062577)
@@ -7490,7 +7490,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8409c407-8374-4c4f-9113-737c7e8c0751")
+			(uuid "f097b852-7305-4af5-a546-d6e7ef0f744f")
 		)
 		(fp_line
 			(start -10.825168 -5.062577)
@@ -7500,7 +7500,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9ee3b0c2-5fd8-46ef-a805-3db31954ab0c")
+			(uuid "9f4b93b5-82e0-4561-8f70-a0f225cf64f1")
 		)
 		(fp_line
 			(start -11.460168 5.097423)
@@ -7510,7 +7510,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "98794633-d1a4-4abc-a3d7-8604ff331c75")
+			(uuid "a6f5ae95-3906-4b8b-8d9d-1e8bd17bf9ff")
 		)
 		(fp_line
 			(start -11.460168 -4.427577)
@@ -7520,7 +7520,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b6862653-7671-4ef2-a1ed-f7c03208ac84")
+			(uuid "203c53d3-0f91-4dc7-abda-8b3655259228")
 		)
 		(pad "1" thru_hole rect
 			(at -10.190168 -3.792577 180)
@@ -9370,7 +9370,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "AM9511A Arithmetic Processing Unit \nwith 65C02 Bus Interface"
+	(gr_text "AM9511 Arithmetic Processing Unit \nwith 6502 Bus Interface"
 		(at 110.25 54.75 0)
 		(layer "F.SilkS")
 		(uuid "22ed1406-8eb3-44ee-98c6-b29a5a14e8d0")
