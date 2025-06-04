@@ -19,6 +19,16 @@ The specification here anticipates the use of an AM9511A clocked at
 AM9511, by swapping the 4 MHz clock oscillator with a unit of an 
 appropriately lower speed.
 
+See [am9511-6502-description.pdf](am9511-6502-description.pdf) for a
+full description of the interface circuit design and 
+[am9511-6502-schematic.pdf](am9511-6502-schematic.pdf) for the schematic.
+
+This repository contains the full KiCad sources for the schematic and a 
+PCB design for the module. 
+
+Also included in the `docs` folder are source documents cited below, as 
+well as datasheets and supplementary documents for the AM9511.
+
 ---
 1. Kissel, R and Currie, J: "Hardware Math for the 6502 Microprocessor"; 
    July 1985; NASA TM-86517
