@@ -1,5 +1,5 @@
-am9511-6502
-===========
+AM9511 Interface Module for the 6502
+====================================
 
 The AMD AM9511 Arithmetic Processing Unit, first produced in the late 
 1970s, provides hardware support for high performance fixed and floating 
