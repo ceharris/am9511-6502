@@ -26,6 +26,10 @@ full description of the interface circuit design and
 This repository contains the full KiCad sources for the schematic and a 
 PCB design for the module. 
 
+The `logic` folder contains the programming details for the ATF16V8B
+used in the circuit, as produced by [Galette](https://github.com/simon-frankau/galette) from the `am9511-6502.pld` source file. The provided JED file
+can be easily programmed into an ATF16V8B using [minipro](https://gitlab.com/DavidGriffith/minipro).
+
 Also included in the `docs` folder are source documents cited below, as 
 well as datasheets and supplementary documents for the AM9511.
 
