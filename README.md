@@ -14,6 +14,8 @@ microprocessor to control four AM9511A floating-point arithmetic units,
 and from Hart’s MICROCRUNCH[2] which also used the AM9511A (Intel 8231A) 
 interfaced with a (Rockwell) 6502.
 
+![Schematic](images/am9511-6502-schematic.png)
+
 The specification here anticipates the use of an AM9511A clocked at
 4 MHz. However, the same design will work with earlier versions of the 
 AM9511, by swapping the 4 MHz clock oscillator with a unit of an 
