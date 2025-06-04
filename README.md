@@ -19,7 +19,8 @@ The specification here anticipates the use of an AM9511A clocked at
 AM9511, by swapping the 4 MHz clock oscillator with a unit of an 
 appropriately lower speed.
 
-[1] Kissel, R and Currie, J: "Hardware Math for the 6502 Microprocessor"; 
-    July 1985; NASA TM-86517
-[2] Hart, J: MICROCRUNCH: An Ultra-Fast Arithmetic Computing System 
-    (part 1); August 1981; MICRO - the 6502/6809 Journal (No. 39)
+---
+1. Kissel, R and Currie, J: "Hardware Math for the 6502 Microprocessor"; 
+   July 1985; NASA TM-86517
+2. Hart, J: MICROCRUNCH: An Ultra-Fast Arithmetic Computing System 
+   (part 1); August 1981; MICRO - the 6502/6809 Journal (No. 39)
