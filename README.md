@@ -39,5 +39,5 @@ well as datasheets and supplementary documents for the AM9511.
 ---
 1. Kissel, R and Currie, J: "Hardware Math for the 6502 Microprocessor"; 
    July 1985; NASA TM-86517
-2. Hart, J: MICROCRUNCH: An Ultra-Fast Arithmetic Computing System 
-   (part 1); August 1981; MICRO - the 6502/6809 Journal (No. 39)
+2. Hart, J: "MICROCRUNCH: An Ultra-Fast Arithmetic Computing System 
+   (part 1)"; August 1981; MICRO - the 6502/6809 Journal (No. 39)
