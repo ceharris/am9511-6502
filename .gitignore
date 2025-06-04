@@ -1,0 +1,7 @@
+.DS_Store
+*.zip
+*.bak
+fp-info-cache
+fp-lib-table
+sym-lib-table
+gerbers/
