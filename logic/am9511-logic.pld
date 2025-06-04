@@ -17,7 +17,7 @@ when the AM9511 is addressed. It is connected directly to the CS input
 of the AM9511 in addition to being connected to the input pin here.
 
 Output signal RESET connects to the the AM9511 active high RESET signal.
-It simply inverts the RESB signal provided from the 6502.
+It simply inverts the RESB signal provided to the 6502.
 
 Output signal WR is an active low write signal that must be connected
 to a monostable multivibrator (e.g. 74123) as described in [2]. This allows
@@ -32,7 +32,7 @@ significantly less than one half of the PHI2 clock period.
 
 Ouput signal RD provides the corresponding active low RD signal input
 on the AM9511. It is not gated by the PHI2 clock, so it becomes active 
-as soon when CE is asserted and the 6502 is performing a read operation 
+as soon as CE is asserted when the 6502 is performing a read operation 
 (RWB is high). The falling edge of this signal clocks a JK flip-flop (FF1)
 whose J input is always high and whose K input is always low. The inverted
 output of this flip-flop is connected to the 6502 RDY pin. A second
@@ -50,7 +50,7 @@ signal this inhibits FF2 from taking on the value 1 and therefore FF1
 will not be reset until the next falling edge of PHI2 in which the PAUSE
 signal is not asserted. 
 
-This circuit ensures that any read of the AM9511 will be wait for at least
+This circuit ensures that any read of the AM9511 will wait for at least
 one additional clock cycle, and that additional wait cycles will be inserted
 for as long as the AM9511 continues to assert the PAUSE signal.  This design 
 was inspired by the approach given in [1], but differs in some specifics.
@@ -61,5 +61,3 @@ was inspired by the approach given in [1], but differs in some specifics.
 [2] Hart, J: MICROCRUNCH: An Ultra-Fast Arithmetic Computing System (part 1);
     August 1981; MICRO - The 6502/6809 Journal
 [3] Intel 8231A Arithmetic Processing Unit specification data sheet
-
-
